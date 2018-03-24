@@ -4,7 +4,7 @@ import requests
  os.system('cls')
 
 #####################################
- api_request = requests.
+ api_request = requests.get("https"://api.coinmarketcap.com/v1/ticker/")
  for x in api:
 	for coin in currencies:
 	    if coin == x["symbol"]:
